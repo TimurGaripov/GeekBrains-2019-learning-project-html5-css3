@@ -1,0 +1,362 @@
+* {
+    padding: 0;
+    margin:0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+} 
+
+.clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+} 
+
+
+section {
+       width: 1366px;
+       margin: 0 auto;
+} 
+
+.menu {
+      float: right;
+} 
+
+.header {
+      padding-top: 63px;
+}
+
+.slider {
+    height: 119px;
+    position: relative;
+}
+   
+.padding-page {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+   
+.menu-list {
+    list-style-type: none;
+    float: left;
+} 
+
+.menu-link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+.menu-link-active {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+.menu-link:hover {
+    color: #212121;
+    font-weight: 700;
+}
+
+
+.second-menu {
+    height: 70px;
+    width: 1366px;
+    background-color: #f4f4f4;
+    padding-top: 28px;
+    margin: 0 auto;
+}
+
+.second-menu-list {
+    list-style-type: none;
+    float: left;
+    margin: 11px;
+}
+
+.second-menu-link {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.8px;
+}
+
+.second-menu-link-active {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.8px;
+}
+
+.second-menu-link:hover {
+    color: #212121;
+}
+
+.second-menu-2 {
+    padding-left: 360px;
+    width: 647px;
+    height: 13px;
+}
+
+.button {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    width: 212px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 3.6px;
+}
+.button:hover {
+    letter-spacing: 4.6px;
+}
+
+.explore-product {
+    padding-left: 98px;
+    padding-right: 98px;
+    margin: 120px auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1170px;
+}
+
+.explore-product-main {
+    background-image: url('./img/product-page/slider1.png');
+    width: 570px;
+    height: 570px;
+}
+
+.explore-product-text {
+    width: 570px;
+    height: 570px;
+}
+
+.explore-product-text-h2 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 198px;
+}
+
+.explore-product-text-h3 {
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 45px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-top: 23px;
+    margin-left: 264px;
+}
+
+.explore-product-price {
+    color: #212121;
+    font-family: Gotham;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 48.02px;
+    margin-top: 36px;
+    margin-left: 196px;
+}
+
+.product-button {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 510px;
+    height: 71px;
+    text-align: center;
+    line-height: 71px;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 4.4px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 35px;
+    background-color: #f44336;
+    margin-top: 31px;
+    margin-left: 75px;
+}
+
+.product-button:hover {
+    letter-spacing: 4.6px;
+}
+
+.explore-product-text-description {
+    color: #212121;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24.01px;
+    letter-spacing: 0.4px;
+    margin-left: 49px;
+    padding-top: 61px;
+}
+
+.choose-product {
+    width: 230px;
+    display: flex;
+    margin-left: 150px;
+    margin-top: 11px;
+}
+
+.choose-product-link:hover {
+    opacity: 0.6;
+}
+
+.trending-products {
+    width: 1170px;
+    height: 475px;
+    margin: 120px auto 50px;
+    padding-left: 98px;
+    padding-right: 98px;
+}
+.trending-product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 1170px;
+    height: 380px;
+}
+.trending-products-img {
+    flex: 1;
+    width: 370px;
+    height: 370px;
+}
+.trending-products-img:hover {
+    opacity: 0.6;
+}
+.trending-h4 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+.explore-all {
+    float: right;
+    text-decoration: none;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    margin-bottom: 8px;
+}
+.explore-all:hover {
+    color: #6c6c6c;
+}
+
+footer {
+    width: 1366px;
+    height: 384px;
+    background-color: #f7f7f7;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact-h4, .information-h4, .subscribe-h4  {
+    font-size: 18px;
+    color: #6c6c6c;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+.information-h4 {
+    margin-left: 22px;
+}
+.contact-links {
+    color: #212121; 
+    font-size: 14px ;
+    font-weight: 300;
+}
+.information-1, .information-2 {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    list-style-type: none;
+    line-height: 25px;
+}
+.subscribe-text {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+}
+.copyright-text, .terms {
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+.contact-us {
+    width: 221px;
+    height: 139px;
+    }
+.information {
+    width: 422px;
+    height: 101px;
+    padding-right: 78px;
+    padding-left: 80px;
+    padding-bottom: 40px;
+}
+.info-block {
+   display: flex; 
+   justify-content: space-around;
+   align-content: center;
+}
+.subscribe {
+    width: 370px;
+    height: 147px;
+}
+.copyright {
+    width: 1170px;
+    text-align: center;
+    margin: -30px auto 0;
+}
+input {
+    width: 370px;
+    height: 48px;
+}
+input[type="email"] {
+    background: url(./img/footer/send.png) no-repeat 355px 16px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    border: 1px solid #d9dee1;
+    background-color: #ffffff; 
+    padding-left: 19px;
+}
+.contact-us, .information, .subscribe {
+    align-self: center;
+}
+.terms {
+    float: right;
+}
+.copyright-text {
+    float: left;
+}
+.social-links {
+    bottom: 20px;
+}
+
+footer  a, .copyright a {
+    text-decoration: none;
+    color: #212121;
+}
